@@ -787,13 +787,16 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     singularName: 'article';
     pluralName: 'articles';
     displayName: 'Articles';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    Title: Attribute.String;
-    Body: Attribute.Text;
+    title: Attribute.String;
+    body: Attribute.Text;
+    featured_image: Attribute.Media;
+    slug: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
