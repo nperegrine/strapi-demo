@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bullet_points",
+  "info": {
+    "singularName": "bullet-point",
+    "pluralName": "bullet-points",
+    "displayName": "BulletPoints"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}
